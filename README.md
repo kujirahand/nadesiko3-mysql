@@ -1,2 +1,4 @@
-# nadesiko3-mssql
-MS SQLServer for Nadesiko3
+# nadesiko3-mysql
+
+MySQL plugins for Nadesiko3
+
