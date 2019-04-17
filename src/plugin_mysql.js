@@ -27,7 +27,7 @@ const PluginMYSQL = {
         sys.__mysql_db.end()
     }
   },
-  'MYSQL逐次実行': { // @逐次実行構文にて、SQLとパラメータPARAMSでSQLを実行し、変数『対象』に結果を得る。INSERT句の場合は『対象[insertId]』でIDが得られる。 // MYSQLちくじじっこう
+  'MYSQL逐次実行': { // @逐次実行構文にて、SQLとパラメータPARAMSでSQLを実行し、変数『対象』に結果を得る。INSERT句の場合は『対象[insertId]』でIDが得られる。 // @MYSQLちくじじっこう
     type: 'func',
     josi: [['を'], ['で']],
     fn: function (sql, params, sys) {
